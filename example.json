@@ -1,0 +1,33 @@
+{
+  "GENO_FA": {
+    "path": "/mnt/data/GRCh38_d1_vd1.fa",
+    "class": "File"
+  },
+  "NORMAL_BAM": {
+    "path": "/mnt/data/normal.bam",
+    "class": "File"
+  },
+  "TUMOR_BAM": {
+    "path": "/mnt/data/tumor.bam",
+    "class": "File"
+  },
+  "CPUS": 20,
+  "MODE": "wgs",
+  "CENTROMERE_BED": {
+    "path": "/mnt/data/hg38_cent.bed",
+    "class": "File"
+  },
+  "COSMIC_VCF": {
+    "path": "/mnt/data/CosmicCodingMuts.vcf.gz",
+    "class": "File"
+  },
+  "DBSNP_VCF": {
+    "path": "/mnt/data/common_all_20170710.vcf.gz",
+    "class": "File"
+  },
+  "OUTPUT": {
+    "path": "/mnt/data/combinedOut.tgz",
+    "class": "File"
+  }
+}
+
