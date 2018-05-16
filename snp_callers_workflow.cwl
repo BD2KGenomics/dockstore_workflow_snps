@@ -6,6 +6,9 @@ class: Workflow
 
 cwlVersion: "v1.0"
 
+doc: |
+    A workflow for running MuSe, MuTect, SomaticSniper, and Pindel. See [the github repository](https://github.com/BD2KGenomics/dockstore_workflow_snps) for details.
+
 requirements:
   - class: MultipleInputFeatureRequirement
   - class: StepInputExpressionRequirement
